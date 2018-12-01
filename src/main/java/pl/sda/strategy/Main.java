@@ -5,6 +5,7 @@ import pl.sda.strategy.klient.Kaczka;
 import pl.sda.strategy.kwakanie.Kwacz;
 
 public class Main {
+
     public static void main(String[] args) {
 
        Kaczka kaczka = new DzikaKaczka();

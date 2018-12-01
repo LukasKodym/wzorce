@@ -12,9 +12,5 @@ public class DzikaKaczka extends Kaczka {
 
     @Override
     public void wyswietl() {
-
     }
-
-
-
 }
