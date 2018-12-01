@@ -2,19 +2,19 @@ package pl.sda.singleton;
 
 public class ClassSingleton {
 
-    private static ClassSingleton uniqueInstatnce;
+    private static ClassSingleton uniqueInstance; // we can add volatile statement before static
 
     private ClassSingleton() {
     }
 
-    public static ClassSingleton getUniqueInstatnce() {
+    public static ClassSingleton getUniqueInstance() {//synchronized - we use this statement to separate threads
 
-        if(uniqueInstatnce == null){
-            uniqueInstatnce = new ClassSingleton();
+        if(uniqueInstance == null){
+            uniqueInstance = new ClassSingleton();
             System.out.println("Nowy obiekt utworzony");
         }else{
             System.out.println("Instancja już istnieje");
         }
-        return uniqueInstatnce;
+        return uniqueInstance;
     }
 }
