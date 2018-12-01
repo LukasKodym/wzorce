@@ -1,6 +1,7 @@
 package pl.sda.observer.stacjaMeteo;
 
 
+import pl.sda.observer.stacjaMeteo.observer.StatystykaPogodowa;
 import pl.sda.observer.stacjaMeteo.observer.WarunkiBiezaceWyswietl;
 import pl.sda.observer.stacjaMeteo.subject.DanePogodowe;
 
@@ -9,6 +10,7 @@ public class StacjaMeteo {
         DanePogodowe danePogodowe = new DanePogodowe();
 
         WarunkiBiezaceWyswietl warunkiBiezaceWyswietl = new WarunkiBiezaceWyswietl(danePogodowe);
+        StatystykaPogodowa statystykaPogodowa = new StatystykaPogodowa(danePogodowe);
         //ZADANIE!
         //DODAJ DWA KOLEJNE SPOSOBY WYSWIETLANIA
         //PROGNOZA
