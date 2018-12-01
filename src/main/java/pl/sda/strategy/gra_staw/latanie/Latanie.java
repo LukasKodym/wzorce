@@ -1,4 +1,4 @@
-package pl.sda.strategy.latanie;
+package pl.sda.strategy.gra_staw.latanie;
 
 public interface Latanie {
 

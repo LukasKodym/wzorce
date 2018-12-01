@@ -1,4 +1,4 @@
-package pl.sda.strategy.kwakanie;
+package pl.sda.strategy.gra_staw.kwakanie;
 
 public interface Kwakanie {
 

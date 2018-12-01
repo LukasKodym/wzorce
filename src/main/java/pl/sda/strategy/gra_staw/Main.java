@@ -1,8 +1,7 @@
-package pl.sda.strategy;
+package pl.sda.strategy.gra_staw;
 
-import pl.sda.strategy.klient.DzikaKaczka;
-import pl.sda.strategy.klient.Kaczka;
-import pl.sda.strategy.kwakanie.Kwacz;
+import pl.sda.strategy.gra_staw.klient.DzikaKaczka;
+import pl.sda.strategy.gra_staw.klient.Kaczka;
 
 public class Main {
 

@@ -1,7 +1,7 @@
-package pl.sda.strategy.klient;
+package pl.sda.strategy.gra_staw.klient;
 
-import pl.sda.strategy.kwakanie.Kwakanie;
-import pl.sda.strategy.latanie.Latanie;
+import pl.sda.strategy.gra_staw.kwakanie.Kwakanie;
+import pl.sda.strategy.gra_staw.latanie.Latanie;
 
 public abstract class Kaczka {
 

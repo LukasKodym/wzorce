@@ -1,7 +1,7 @@
-package pl.sda.strategy.klient;
+package pl.sda.strategy.gra_staw.klient;
 
-import pl.sda.strategy.kwakanie.Kwacz;
-import pl.sda.strategy.latanie.Latam;
+import pl.sda.strategy.gra_staw.kwakanie.Kwacz;
+import pl.sda.strategy.gra_staw.latanie.Latam;
 
 public class DzikaKaczka extends Kaczka {
 
