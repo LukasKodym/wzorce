@@ -6,4 +6,9 @@ public class AmbulanceTwo implements Ambulance {
     public void update() {
 
     }
+
+    @Override
+    public void driveToAccident() {
+
+    }
 }
