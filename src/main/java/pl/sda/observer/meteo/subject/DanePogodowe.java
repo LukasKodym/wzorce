@@ -1,7 +1,7 @@
-package pl.sda.observer.stacjaMeteo.subject;
+package pl.sda.observer.meteo.subject;
 
 
-import pl.sda.observer.stacjaMeteo.observer.Obserwator;
+import pl.sda.observer.meteo.observer.Obserwator;
 
 import java.util.ArrayList;
 import java.util.List;

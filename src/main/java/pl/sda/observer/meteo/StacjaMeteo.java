@@ -1,9 +1,9 @@
-package pl.sda.observer.stacjaMeteo;
+package pl.sda.observer.meteo;
 
 
-import pl.sda.observer.stacjaMeteo.observer.StatystykaPogodowa;
-import pl.sda.observer.stacjaMeteo.observer.WarunkiBiezaceWyswietl;
-import pl.sda.observer.stacjaMeteo.subject.DanePogodowe;
+import pl.sda.observer.meteo.observer.StatystykaPogodowa;
+import pl.sda.observer.meteo.observer.WarunkiBiezaceWyswietl;
+import pl.sda.observer.meteo.subject.DanePogodowe;
 
 public class StacjaMeteo {
     public static void main(String[] args) {

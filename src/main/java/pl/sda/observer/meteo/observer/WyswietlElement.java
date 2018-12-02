@@ -1,4 +1,4 @@
-package pl.sda.observer.stacjaMeteo.observer;
+package pl.sda.observer.meteo.observer;
 
 public interface WyswietlElement {
     void wyswietl();
